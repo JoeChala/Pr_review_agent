@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "@open-gitagent/gitagent": "^0.1.8"
+    "@open-gitagent/gitagent": "^0.1.8",
+    "gitclaw": "^1.2.0"
   }
 }

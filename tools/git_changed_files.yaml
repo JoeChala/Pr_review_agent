@@ -1,0 +1,9 @@
+name: get-changed-files
+description: "Lists files changed in a PR"
+input_schema:
+  type: object
+  properties:
+    base_branch:
+      type: string
+  required: 
+  - base_branch

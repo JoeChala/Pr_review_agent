@@ -1,0 +1,14 @@
+name: get-diff
+description: "Gets the git diff for a branch or commit range"
+input_schema:
+  type: object
+  properties:
+    base_branch:
+      type: string
+      description: "The base branch to diff against (e.g. main)"
+    head_branch:
+      type: string
+      description: "The branch being reviewed"
+  required: 
+    - base_branch
+    - head_branch
