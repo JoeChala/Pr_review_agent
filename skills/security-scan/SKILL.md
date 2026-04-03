@@ -1,7 +1,7 @@
 ---
 name: security-scan
-description: "Scans code changes for security vulnerabilities"
-allowed-tools: Bash Read
+description: "Scans code changes for security vulnerabilities and hardcoded secrets"
+user-invocable: true
 ---
 # Security Scan Skill
 

@@ -1,7 +1,7 @@
 ---
 name: write-summary
 description: "Writes a concise PR review summary with overall recommendation"
-allowed-tools: Read
+user-invocable: true
 ---
 
 # Write Summary Skill

@@ -1,7 +1,7 @@
 ---
 name: review-diff
-description: "Analyzes a git diff for code quality issues, logic errors, and anti-patterns"
-allowed-tools: Bash Read
+description: "Analyzes a git diff for code quality, logic errors, and anti-patterns"
+user-invocable: true
 ---
 # Review Diff Skill
 
